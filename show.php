@@ -20,17 +20,19 @@
 ?>
 <div class="container">
     <div align="center"><h1>DataBase Table</h1></div>
-    <table width="400" border="1">
-        <table class="table table-dark table-striped table-bordered col-sm-10">
-            <thead>
-                <tr>
-                    <th width="100"> <div align="center">Name</div></th>
-                    <th width="300"> <div align="center">Comment</div></th>
-                    <th width="150"> <div align="center">Link</div></th>
-                    <th width="10%"> <div align="center">Edit</div></th>
-                    <th width="10%"> <div align="center">Delete</div></th>
-                </tr>
-            </thead>
+    <div class="table-responsive">
+        <table width="400" border="1">
+       	    <table class="table table-dark table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th width="100"> <div align="center">Name</div></th>
+                        <th width="300"> <div align="center">Comment</div></th>
+                        <th width="150"> <div align="center">Link</div></th>
+                        <th width="10%"> <div align="center">Edit</div></th>
+                        <th width="10%"> <div align="center">Delete</div></th>
+                    </tr>
+                </thead>
+    </div>
     <?php
         while($Result = mysqli_fetch_array($res))
         {
