@@ -21,7 +21,7 @@
 <div class="container">
     <div align="center"><h1>DataBase Table</h1></div>
     <table width="400" border="1">
-        <table class="table table-dark table-striped table-bordered">
+        <table class="table table-dark table-striped table-bordered col-sm-10">
             <thead>
                 <tr>
                     <th width="100"> <div align="center">Name</div></th>
